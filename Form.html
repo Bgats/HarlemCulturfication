@@ -1,0 +1,58 @@
+
+<!doctype html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/map.css" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+		<link href="css/mdb.css" rel="stylesheet">
+		<title>Form</title>
+		<style>
+			form{
+				width:80%;
+				margin-left:10%;
+				margin-top: 10%;
+				}
+		</style>
+	</head>
+<body>
+	<form role="form">
+							<div class="form-group">
+								<label>Name</label>
+								<input class="form-control-static" type="text" name="name" id="name" value="" />
+							</div>
+							<div class="form-group">
+								<label>Location Name</label>
+								<input type="text" name="name" id="location" value="" />
+							</div>
+							<div class="form-group">
+								<label>ImageURL</label>
+								<input type="text" name="name" id="img" value="" />
+							</div>
+							<div class="form-group">
+								<label>Location Adress</label>
+								<input type="text" name="name" id="Address" value="" />
+							</div>
+							<div class="form-group">
+								<label>Facebook Share</label>
+								<input type="text" name="name" id="share" value="" />
+							</div>
+							<div class="form-group">
+								<label>History</label>
+								<input type="text" name="name" id="history" value="" />
+							</div>
+							<input type="button" onclick="newEvent()" class="btn btn-default info-color" value="Submit" data-toggle="modal" data-target="#newEvent">
+						</form>
+	<script src="js/GoogleAPI.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHis5qEzW7nuscQp7SEW4aYlE1g393ufw&callback=initMap" async defer></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<script src="https://cdn.firebase.com/js/client/2.4.2/firebase.js"></script>
+		<script src="https://apis.google.com/js/platform.js" async defer></script>
+		<script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+		<script src="js/Firebase.js"></script>
+		<script type="text/javascript" src="js/mdb.js"></script>
+</body>
+</html>
